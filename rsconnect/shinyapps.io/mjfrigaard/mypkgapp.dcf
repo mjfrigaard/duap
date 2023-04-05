@@ -1,0 +1,11 @@
+name: mypkgapp
+title:
+username:
+account: mjfrigaard
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8775744
+bundleId: 7054179
+url: https://mjfrigaard.shinyapps.io/mypkgapp/
+when: 1680723124.53041
+lastSyncTime: 1680723124.53042
