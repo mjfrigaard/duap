@@ -7,6 +7,7 @@
 #'
 #' @importFrom shiny NS tagList tags
 #' @importFrom shiny plotOutput verbatimTextOutput
+#' @import ggplot2
 mod_display_plot_ui <- function(id) {
   ns <- shiny::NS(id)
   shiny::tagList(
@@ -33,7 +34,7 @@ mod_display_plot_ui <- function(id) {
 #' @importFrom tools toTitleCase
 #' @importFrom shiny renderPlot
 #' @importFrom stringr str_replace_all
-#' @importFrom ggplot2 labs theme_minimal theme
+#' @import ggplot2
 mod_display_plot_server <- function(id, var_inputs) {
   shiny::moduleServer(id, function(input, output, session) {
     movies <- myPkgApp::movies

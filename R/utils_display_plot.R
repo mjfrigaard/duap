@@ -10,7 +10,7 @@
 #' @return plot object
 #' @export point_plot
 #'
-#' @importFrom ggplot2 ggplot aes geom_point
+#' @import ggplot2
 #'
 #' @examples
 #' require(myPkgApp)

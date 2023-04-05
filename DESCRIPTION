@@ -1,11 +1,11 @@
 Package: myPkgApp
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Build Your Shiny App Like a Package
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Martin Frigaard
+Maintainer: Martin Frigaard <mjfrigaard@pm.me>
+Description: This shiny app was developed as a package using devtools and 
+    usethis. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
