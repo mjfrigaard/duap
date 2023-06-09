@@ -1,8 +1,8 @@
 ---
-title: "myPkgApp"
+title: "duap"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{myPkgApp}
+  %\VignetteIndexEntry{duap}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -15,5 +15,5 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(myPkgApp)
+library(duap)
 ```

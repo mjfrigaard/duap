@@ -13,8 +13,8 @@
 #' @import ggplot2
 #'
 #' @examples
-#' require(myPkgApp)
-#' movies <- myPkgApp::movies
+#' require(duap)
+#' movies <- duap::movies
 #' point_plot(df = movies,
 #'   x_var = "critics_score",
 #'   y_var = "imdb_rating",

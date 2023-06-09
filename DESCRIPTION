@@ -1,6 +1,6 @@
-Package: myPkgApp
+Package: duap
 Type: Package
-Title: Build Your Shiny App Like a Package
+Title: Build Your Shiny App as a Package
 Version: 0.1.0
 Author: Martin Frigaard
 Maintainer: Martin Frigaard <mjfrigaard@pm.me>
@@ -19,6 +19,8 @@ Suggests:
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 Imports: 
+    devtools,
+    usethis,
     ggplot2,
     shiny,
     stringr

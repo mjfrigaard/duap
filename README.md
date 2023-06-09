@@ -1,25 +1,25 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# `myPkgApp`
+# `duap`
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of `myPkgApp` is to demonstrate how to build a shiny
+The goal of `duap` is to demonstrate how to build a shiny
 application using `devtools` and `usethis`
 
 ## Installation
 
-You can install the development version of `myPkgApp` like so:
+You can install the development version of `duap` like so:
 
 ``` r
 install.packages("remotes")
-remotes::install_github("mjfrigaard/myPkgApp")
+remotes::install_github("mjfrigaard/duap")
 ```
 
 ## Example
 
 ``` r
-myPkgApp::moviesApp()
+duap::moviesApp()
 ```

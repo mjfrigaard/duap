@@ -1,11 +1,13 @@
-name: mypkgapp
-title:
+name: duap
+title: duap
 username:
 account: mjfrigaard
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8775744
-bundleId: 7054179
+bundleId: 7054389
 url: https://mjfrigaard.shinyapps.io/mypkgapp/
-when: 1680723124.53041
-lastSyncTime: 1680723124.53042
+when: 1680726489.42496
+lastSyncTime: 1680726489.42497
+asMultiple: FALSE
+asStatic: FALSE
