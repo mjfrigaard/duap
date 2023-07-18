@@ -29,7 +29,7 @@ install.packages("remotes")
 remotes::install_github("mjfrigaard/duap")
 ```
 
-## Example
+## Run app
 
 ```{r , eval = FALSE}
 duap::moviesApp()

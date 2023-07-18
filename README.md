@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of `duap` is to demonstrate how to build a shiny
-application using `devtools` and `usethis`
+The goal of `duap` is to demonstrate how to build a shiny application
+using `devtools` and `usethis`
 
 ## Installation
 
@@ -18,7 +18,7 @@ install.packages("remotes")
 remotes::install_github("mjfrigaard/duap")
 ```
 
-## Example
+## Run app
 
 ``` r
 duap::moviesApp()

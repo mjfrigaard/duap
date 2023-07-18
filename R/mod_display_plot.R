@@ -37,7 +37,8 @@ mod_display_plot_ui <- function(id) {
 #' @import ggplot2
 mod_display_plot_server <- function(id, var_inputs) {
   shiny::moduleServer(id, function(input, output, session) {
-    movies <- duap::movies
+
+    load("data/movies.rda")
 
     inputs <- shiny::reactive({
       plot_title <- tools::toTitleCase(var_inputs$plot_title())
